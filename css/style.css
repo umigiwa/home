@@ -228,6 +228,7 @@ footer{
   .works .contents_wrap{
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    row-gap: 4%;
   }
   .profile .contents_wrap{
     display: block;
