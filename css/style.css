@@ -96,14 +96,17 @@ header p{
 }
 
 /* works */
+.works{
+  margin-bottom: 150px;
+}
 .works .contents_wrap{
   width: 70%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  row-gap: 5%;
-  column-gap: 7%;
+  row-gap: 70px;
+  column-gap: 90px;
 }
 .works .headline{
   margin-left: 15%;
@@ -167,7 +170,6 @@ header p{
 
 /* footer */
 footer{
-  margin-top: 250px;
   padding-bottom: 40px;
   text-align: center;
   font-size: .75rem;
@@ -241,12 +243,18 @@ footer{
   header h1{
     font-size: 2.3rem;
   }
+  .works{
+    margin-bottom: 100px;
+  }
   .works .contents_wrap{
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    row-gap: 4%;
+    row-gap: 60px;
   }
   .profile .contents_wrap{
+    display: block;
+  }
+  .contents:nth-child(3) .df{
     display: block;
   }
   .profile_image{
